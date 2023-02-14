@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; 
+}
+
+body{
+  background-color: #F6F8F9;
+}
+
+header{
+  background-color: white;
+  padding: 1%;
+}
+
+header img, header span{
+  vertical-align: middle;
+}
+
+header span{
+  display: inline-block;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+main{
+  background-color: white;
+  margin: 3% 15%;
+  border-radius: 5px;
+}
+
+nav, .container{
+  padding-top: 2%;
+  padding-bottom: 1%;
+  padding-left: 5%;
+}
+
+nav{
+  border-bottom: 2px solid #F6F8F9;
+}
+
+#button-task, #sezione-bottoni{
+  border-radius: 4px;
+  padding: 0.5% 1%;
+  font-size: 12px;
+}
+
+#button-task{
+  background-color: #6DA9ED;
+  color: white;
+  border: 1px solid #6DA9ED;
+}
+
+#sezione-bottoni{
+  background-color: white;
+  color: #C8CCD1;
+  border: 1px solid #C8CCD1;
+}
+
+.container{
+  color: #3F424A;
+  line-height: 35px;
+}
+
+.task{
+  margin-bottom: 30px;
+}
+
+.freccia{
+  font-stretch: extra-expanded;
+  font-weight: bold;
+}
+
+.check, .uncheck{
+  height: 10px;
+  width: 10px;
+  padding:1px 3px ;  
+  border-style: solid;
+  border-radius: 50%;
+  border-width: 1px; 
+  margin-right: 6px;
+  margin-left: 4px;
+  font-size: 10px;
+  text-align: center;
+  line-height: 10px;
+}
+
+.check{
+  color:green;
+  border-color: green;
+}
+
+.uncheck{
+  color:red;
+  border-color: red;
+}
+
+.etichetta{
+  color: white;
+  border:none;
+  border-radius: 10px;
+  padding: 0.5% 1%;
+  font-size: 10px;
+}
+
+.editorial{
+  background-color: #6DA9ED;
+}
+
+.q1-goals{
+  background-color: #9374DE;
+}
+
+.recruiting{
+  background-color: #80BBA9;
+}
+
+.mobile{
+  background-color: #E0A147;
+}
+
+.website{
+  background-color: #C36C9E;
+}
+
+.sales{
+  background-color: #B4C645;
+}
